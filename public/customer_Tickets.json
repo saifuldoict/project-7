@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "User unable to login with correct credentials",
+    "customer": "John Doe",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025/09/01"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Credit card payment not going through",
+    "customer": "Alice Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025/09/02"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Website takes too long to load on mobile",
+    "customer": "Robert Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Resolved",
+    "createdAt": "2025/09/03"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "description": "System not sending confirmation emails",
+    "customer": "Emily Johnson",
+    "priority": "LOW PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025/09/04"
+  },
+  {
+    "id": 1005,
+    "title": "App Crash on Launch",
+    "description": "Link on homepage redirects to 404 page",
+    "customer": "Michael Lee",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025/09/05"
+  },
+  {
+    "id": 1006,
+    "title": "Refund Not Processed",
+    "description": "Mobile app crashes when opening profile section",
+    "customer": "Sophia Davis",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025/09/06"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Users not receiving reset password emails",
+    "customer": "Daniel Wilson",
+    "priority": "HIGH PRIORITY",
+    "status": "Resolved",
+    "createdAt": "2025/09/07"
+  },
+  {
+    "id": 1008,
+    "title": "Unable to Update Profile Picture",
+    "description": "Button misaligned on checkout page",
+    "customer": "Olivia Martinez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025/09/08"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Auto-Renewal",
+    "description": "Customer did not receive the product despite order marked shipped",
+    "customer": "William Anderson",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025/09/09"
+  },
+  {
+    "id":1010,
+    "title": "Search Not Working",
+    "description": "Search results return empty for valid queries",
+    "customer": "Emma Thomas",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025/09/10"
+  },
+  {
+    "id": 1011,
+    "title": "Subscription Renewal Failed",
+    "description": "Auto-renewal not charging customer’s card",
+    "customer": "James White",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Resolved",
+    "createdAt": "2025/09/11"
+  },
+  {
+    "id": 1012,
+    "title": "Missing Order Confirmation Email",
+    "description": "Push notifications are delayed by 30 minutes",
+    "customer": " Harris",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025/09/12"
+  }
+]
