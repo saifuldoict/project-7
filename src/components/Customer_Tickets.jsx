@@ -3,11 +3,11 @@ import TicketCard from './TicketCard'
 import Task from './Task'
 import vector from '../assets/vector1.png'
 import { toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+//import 'react-toastify/dist/ReactToastify.css'
 
 
-const Customer_Tickets = ({ trcketPromise }) => {
-  const data = use(trcketPromise)
+const Customer_Tickets = ({ticketPromise}) => {
+  const data = use(ticketPromise)
 
   const [allTickets, setAllTickets] = useState(data)
   const [inProgress, setInProgress] = useState(0)
@@ -44,17 +44,14 @@ const Customer_Tickets = ({ trcketPromise }) => {
           <p className="text-4xl font-bold">{resolved}</p>
         </div>
       </div>
-
-    
       <h1 className="text-2xl md:text-3xl font-bold text-gray-400 mt-4">
         Customer Tickets
       </h1>
       <div className="flex flex-col lg:flex-row mt-3 gap-4">
-      
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 flex-1">
           {allTickets.map((ticket) => (
             <TicketCard
-              key={ticket.id}
+              
               ticket={ticket}
               onCardClick={() => handleCardClick(ticket)}
             />

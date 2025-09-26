@@ -1,10 +1,8 @@
 import './App.css'
 import Customer_Tickets from './components/Customer_Tickets.jsx'
-import Footer from './components/Footer.jsx'
-
 import Home from './components/Home.jsx'
+import Footer from './components/Footer.jsx'
 import { Suspense } from 'react'
-
 import { ToastContainer } from 'react-toastify';
 
 const fetchTickets = async ()=>{
@@ -12,16 +10,15 @@ const fetchTickets = async ()=>{
   return res.json()
 }
 
-
 function App() {
-  const trcketPromise = fetchTickets()
+  const ticketPromise = fetchTickets()
  
   return (
     <>
       <div>
       <Home/>
       <Suspense >
-         <Customer_Tickets trcketPromise={trcketPromise}/> 
+         <Customer_Tickets ticketPromise={ticketPromise}/> 
       </Suspense>
 
       <Footer/>
