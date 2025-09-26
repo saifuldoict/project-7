@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-black mt-6">
       <div className="max-w-[1200px] mx-auto px-4 py-8">
         {/* Grid Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 text-white">
           {/* Brand Info */}
           <div>
             <h1 className="font-bold text-lg mb-3">CS — Ticket System</h1>
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Company */}
+     
           <div>
             <h1 className="font-bold text-lg mb-3">Company</h1>
             <ul className="space-y-2 text-gray-400 text-sm">
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+      
           <div>
             <h1 className="font-bold text-lg mb-3">Services</h1>
             <ul className="space-y-2 text-gray-400 text-sm">
@@ -40,7 +40,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
+          <div>
+            <h1 className="font-bold text-lg mb-3">Information</h1>
+            <ul className="space-y-2 text-gray-400 text-sm">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Join Us</a></li>
+            </ul>
+          </div>
+
           <div>
             <h1 className="font-bold text-lg mb-3">Social Links</h1>
             <ul className="space-y-3 text-gray-400 text-sm">
@@ -64,10 +72,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Divider */}
         <hr className="my-6 border-gray-700" />
 
-        {/* Copyright */}
         <h5 className="text-center text-gray-500 text-sm">
           © 2025 CS — Ticket System. All rights reserved.
         </h5>
