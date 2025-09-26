@@ -1,4 +1,6 @@
 import React from 'react'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Task = ({ tickets, onComplete, inProgress, resolved }) => {
   return (
@@ -18,9 +20,10 @@ const Task = ({ tickets, onComplete, inProgress, resolved }) => {
               <div>
                   <h2 className="font-semibold text-black">{t.title}</h2>
 
-                  <button onClick={() => onComplete(t.id)} className="bg-green-600 text-white px-2 py-2 rounded-lg text-center w-full">
+                  <button onClick={() => onComplete(t.id)} className="bg-green-600 text-white px-2 py-2 rounded-lg text-center w-full cursor-pointer">
                    Complete
                   </button>
+                  
               </div>
               
             </div>

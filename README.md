@@ -1,4 +1,34 @@
 
+### ✅ Readme: 
+Create a README file to answer the following question-
+
+ - What is JSX, and why is it used?
+Ans: JSX means- javaScript XML help to write HTML code directly inside javaScript at a time.
+
+ - What is the difference between State and Props?
+ Ans: In React, props are data passed from a parent component to a child component. while state is internal and mutable, allowing a component to have dynamic behavior
+ - What is the useState hook, and how does it work?
+
+ Ans: The useState hook in React is a function that adds state variables to functional components, allowing them to remember and manage dynamic data across re-renders
+ - How can you share state between components in React?
+ Ans: Sharing state between components in React can be achieved through several methods,
+ Lifting State Up, Context API
+ - How is event handling done in React?
+
+---Ans: Event handling in React is performed using a synthetic event system that wraps the browser's native event system, ensuring cross-browser consistency and optimal performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-007
 
 ### 📅 Deadline For 60 marks: 27th September, 2025 (11:59 pm ⏱️)

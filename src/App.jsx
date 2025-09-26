@@ -4,8 +4,8 @@ import Footer from './components/Footer.jsx'
 
 import Home from './components/Home.jsx'
 import { Suspense } from 'react'
-import { useEffect, useState } from 'react'
 
+import { ToastContainer } from 'react-toastify';
 
 const fetchTickets = async ()=>{
   const res = await fetch("/customer_Tickets.json")
@@ -25,6 +25,7 @@ function App() {
       </Suspense>
 
       <Footer/>
+      <ToastContainer position="top-right" autoClose={2000}/>
       </div> 
     </>
   )

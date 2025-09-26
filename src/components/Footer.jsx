@@ -30,16 +30,29 @@ const Footer = () => {
                 </div>
                 <div >
                   <h1 className='font-bold mb-3 '>Social Links</h1>
-                  <ul className='text-gray-500'>
-                    <li><img src={fi_5969020}/><a href="">@CS — Ticket System</a></li>
-                    <li><img src={fi_145807}/><a href="">@CS — Ticket System</a></li>
-                    <li><img src={fi_5968764}/><a href="">@CS — Ticket System</a></li>
-                    <li><img src={fi_6244710}/><a href="">support@cst.com</a></li>
+                  <ul className='text-gray-500 '>
+                    <div className='flex gap-2 mb-4'>
+                        <img src={fi_5969020}/>
+                        <li><a href="">@CS — Ticket System</a></li>
+                    </div>
+                    <div className='flex gap-2 mb-4'>
+                        <img src={fi_145807}/>
+                        <li><a href="">@CS — Ticket System</a></li>
+                    </div>
+                    <div className='flex gap-2 mb-4'>
+                        <img src={fi_5968764}/>
+                        <li><a href="">@CS — Ticket System</a></li>
+                    </div>
+                    <div className='flex gap-2 mb-4'>
+                        <img src={fi_6244710}/>
+                        <li><a href="">support@cst.com</a></li>
+                    </div>
                   </ul>
                 </div>
             </div>
           
        </div>
+       <hr className='bg-gray-50'/>
         <h5 className='w-full justify-center text-center'>© 2025 CS — Ticket System. All rights reserved.</h5>
     </div>
   ) 
