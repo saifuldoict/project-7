@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div className="bg-black mt-6">
       <div className="max-w-[1200px] mx-auto px-4 py-8">
-        {/* Grid Section */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 text-white">
-          {/* Brand Info */}
+        
           <div>
             <h1 className="font-bold text-lg mb-3">CS — Ticket System</h1>
             <p className="text-gray-400 text-sm leading-relaxed">
