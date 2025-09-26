@@ -24,9 +24,9 @@ const Customer_Tickets = ({ trcketPromise }) => {
 
   return (
     <div className="max-w-[1200px] mx-auto px-3">
-      {/* ✅ Stats section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 py-3">
-        <div className="flex flex-col justify-center items-center h-[200px] bg-gradient-to-r from-[#8a7ce7] to-[#67afe9] text-white p-3 rounded-lg">
+   
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 py-3">
+        <div className="progress flex flex-col justify-center items-center h-[200px] bg-gradient-to-r from-[#8a7ce7] to-[#67afe9] text-white p-3 rounded-lg">
           <h1>In-Progress</h1>
           <p className="text-4xl font-bold">{inProgress}</p>
         </div>
@@ -36,12 +36,12 @@ const Customer_Tickets = ({ trcketPromise }) => {
         </div>
       </div>
 
-      {/* ✅ Ticket + Task layout */}
+    
       <h1 className="text-2xl md:text-3xl font-bold text-gray-400 mt-4">
         Customer Tickets
       </h1>
       <div className="flex flex-col lg:flex-row mt-3 gap-4">
-        {/* Tickets grid */}
+      
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 flex-1">
           {allTickets.map((ticket) => (
             <TicketCard
@@ -52,8 +52,8 @@ const Customer_Tickets = ({ trcketPromise }) => {
           ))}
         </div>
 
-        {/* Task panel */}
-        <div className="w-full lg:w-[35%]">
+       
+        <div className=" lg:w-[25%]  ">
           <Task
             tickets={selectedTickets}
             onComplete={handleComplete}

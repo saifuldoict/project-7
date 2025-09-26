@@ -1,5 +1,8 @@
 import React from 'react'
-
+import fi_5969020 from '../assets/fi_5969020.png'
+import fi_145807 from '../assets/fi_145807.png'
+import fi_5968764 from '../assets/fi_5968764.png'
+import fi_6244710 from '../assets/fi_6244710.png'
 const Footer = () => {
   return (
     <div className=' bg-black mt-3 max-w-[1200px] mx-auto'>
@@ -28,18 +31,18 @@ const Footer = () => {
                 <div >
                   <h1 className='font-bold mb-3 '>Social Links</h1>
                   <ul className='text-gray-500'>
-                    <li><a href="">@CS — Ticket System</a></li>
-                    <li><a href="">@CS — Ticket System</a></li>
-                    <li><a href="">@CS — Ticket System</a></li>
-                    <li><a href="">support@cst.com</a></li>
+                    <li><img src={fi_5969020}/><a href="">@CS — Ticket System</a></li>
+                    <li><img src={fi_145807}/><a href="">@CS — Ticket System</a></li>
+                    <li><img src={fi_5968764}/><a href="">@CS — Ticket System</a></li>
+                    <li><img src={fi_6244710}/><a href="">support@cst.com</a></li>
                   </ul>
                 </div>
             </div>
           
        </div>
-        <h5 className='w-full'>© 2025 CS — Ticket System. All rights reserved.</h5>
+        <h5 className='w-full justify-center text-center'>© 2025 CS — Ticket System. All rights reserved.</h5>
     </div>
-  )
+  ) 
 }
 
 export default Footer

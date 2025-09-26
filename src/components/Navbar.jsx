@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
         
-<div className="navbar max-w-[1200px] mx-auto shadow-2xl">
+<div className="navbar max-w-[1200px] mx-auto shadow-2xl text-gray-800">
   <div className="flex-1">
     <h1 className='font-bold'>CS — Ticket System</h1>
   </div>
