@@ -3,13 +3,13 @@ import TicketCard from './TicketCard'
 import Task from './Task'
 import vector from '../assets/vector1.png'
 import { toast } from 'react-toastify'
-//import 'react-toastify/dist/ReactToastify.css'
+import 'react-toastify/dist/ReactToastify.css'
 
 
 const Customer_Tickets = ({ticketPromise}) => {
   const data = use(ticketPromise)
-  const [allTickets, setAllTickets] = useState(data)
 
+  const [allTickets, setAllTickets] = useState(data)
   const [inProgress, setInProgress] = useState(0)
   const [resolved, setResolved] = useState(0)
   const [selectedTickets, setSelectedTickets] = useState([])
