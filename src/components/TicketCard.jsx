@@ -4,24 +4,16 @@ import clen from '../assets/clen.png'
 
 const TicketCard = ({ ticket, onCardClick }) => {
   return (
-    <div
-      onClick={onCardClick}
-      className="cursor-pointer "
-    >
+    <div onClick={onCardClick} className="cursor-pointer">
       <div className="card bg-white shadow-lg p-3 sm:p-4 rounded-xl">
-      
         <div className="flex justify-between">
           <h3 className="font-bold text-black/70 sm:text-lg">{ticket.title}</h3>
           <button className="bg-[#b9f8cf] rounded-3xl text-[#046526] flex items-center gap-1 px-3 py-1 text-sm sm:text-base">
             <img src={elips} alt="" className="w-4 sm:w-2"/> Open
           </button>
-        </div>
-
-      
+        </div> 
         <p className="text-gray-600 text-sm sm:text-base mt-2">{ticket.description}</p>
-
-      
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-3 gap-2 sm:gap-0">
+        <div className="flex justify-between items-start sm:items-center mt-3 gap-2 sm:gap-0">
           <div className="flex gap-2 text-sm sm:text-base">
             <p className='text-black/50 font-bold'>#{ticket.id}</p>
             <p className='text-black/50 text-sm'>{ticket.priority}</p>

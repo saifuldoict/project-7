@@ -8,8 +8,8 @@ import { toast } from 'react-toastify'
 
 const Customer_Tickets = ({ticketPromise}) => {
   const data = use(ticketPromise)
-
   const [allTickets, setAllTickets] = useState(data)
+
   const [inProgress, setInProgress] = useState(0)
   const [resolved, setResolved] = useState(0)
   const [selectedTickets, setSelectedTickets] = useState([])
@@ -50,15 +50,10 @@ const Customer_Tickets = ({ticketPromise}) => {
       <div className="flex flex-col lg:flex-row mt-3 gap-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 flex-1">
           {allTickets.map((ticket) => (
-            <TicketCard
-              
-              ticket={ticket}
-              onCardClick={() => handleCardClick(ticket)}
-            />
+            <TicketCard ticket={ticket} onCardClick={()=>handleCardClick(ticket)}/>
           ))}
         </div>
-
-       
+ 
         <div className=" lg:w-[25%]  ">
           <Task
             tickets={selectedTickets}
