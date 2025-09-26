@@ -17,16 +17,18 @@ const Customer_Tickets = ({ticketPromise}) => {
   const handleCardClick = (ticket) => {
     setInProgress(inProgress + 1)
     setSelectedTickets([...selectedTickets, ticket])
-    toast.info(`Ticket "${ticket.title}" moved to In-Progress`)
+    toast ("moved to In-Progress")
+    // toast.info(`Ticket "${ticket.title}" moved to In-Progress`)
   }
 
   const handleComplete = (ticketId) => {
-    const completedTicket = selectedTickets.find((t) => t.id === ticketId)
+    // const completedTicket = selectedTickets.find((t) => t.id === ticketId)
     setSelectedTickets(selectedTickets.filter((t) => t.id !== ticketId))
     setAllTickets(allTickets.filter((t) => t.id !== ticketId))
     setInProgress(inProgress - 1)
     setResolved(resolved + 1)
-    toast.success(`Ticket "${completedTicket.title}" marked as Resolved `)
+    toast("marked as Resolved")
+    // toast.success(`Ticket "${completedTicket.title}" marked as Resolved `)
   }
 
   return (
